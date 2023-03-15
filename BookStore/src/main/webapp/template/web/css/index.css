@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+/* navigation */
+
+#navigation {
+    position: fixed;
+    z-index: 5;
+}
+
+.menu-nav {
+    padding: 12px 16px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.search-bar {
+    height: 100%; 
+}
+
+/* header */
+#header {
+    padding-top: 70px;
+}
+
+/* section */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#section {
+    background-color: #dddddd;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+#show-more-btn {
+    margin-left: calc(50% - 200px);
+    margin-right: calc(50% - 200px);
+    width:400px;
+    height:50px;
+}
+
+/*sub book*/
+
+#mps {
+    margin:70px 40px;
+}
+
+#section {
+    background-color: #dddddd;
+}
+
+.product .product-info {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.product-info .evaluate i{
+    width:10px;
+    font-size:12px;
+    margin-top:6px;
+}
+
+.product-info .evaluate div{
+    padding-right: 16px;
+}
+
+.product-info .quantity-box {
+    margin:20px 0px;
+    width:500px;
+    margin-top: 60px;
+}
+
+.product-info .quantity-box .quantity-inside{
+    border: 1px black solid;
+    text-align: center;
+}
+
+.product-info .buy-box {
+    margin-top:100px;
+}
+
+.product-info .buy-box button {
+    border: 1px rgb(255, 102, 46) solid;
+    margin-right: 20px;
+}
+
+/*footer*/
+
+#footer p {
+    font-size: 12px;
+}
+
+#footer .footer-column-info {
+    margin-top: 20px;
+}
+
+#footer .footer-column-info img {
+	width: 200px;
+    margin-top: 20px;
+}
